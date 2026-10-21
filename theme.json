@@ -1,30 +1,339 @@
 {
-  "$schema": "https://schemas.wp.org/wp/7.0/theme.json",
-  "version": 3,
-  "settings": {
-    "appearanceTools": true,
-    "color": {
-      "defaultDuotone": false,
-      "defaultGradients": false,
-      "defaultPalette": false
-    },
-    "layout": {
-      "contentSize": "1280px",
-      "wideSize": "1920px"
-    },
-    "shadow": {
-      "defaultPresets": false
-    },
-    "useRootPaddingAwareAlignments": true
-  },
-  "styles": {
-    "spacing": {
-      "padding": {
-        "bottom": "0px",
-        "left": "2rem",
-        "right": "2rem",
-        "top": "0px"
-      }
-    }
-  }
+	"$schema": "https://schemas.wp.org/wp/7.1/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"gradients": [
+				{
+					"color": "#000",
+					"gradient": "linear-gradient(135deg,rgb(241,234,217) 0%,rgb(241,234,217) 53%,rgb(255,255,255) 100%)",
+					"name": "Hero-Gradiant",
+					"slug": "custom-hero-gradiant"
+				}
+			],
+			"palette": [
+				{
+					"color": "#cecdb6",
+					"name": "Vert-01",
+					"slug": "custom-vert-01"
+				},
+				{
+					"color": "#848d69",
+					"name": "Vert-02",
+					"slug": "custom-vert-02"
+				},
+				{
+					"color": "#526040",
+					"name": "Vert-03",
+					"slug": "custom-vert-03"
+				},
+				{
+					"color": "#323c2e",
+					"name": "Vert-04",
+					"slug": "custom-vert-04"
+				},
+				{
+					"color": "#f5f1e5",
+					"name": "Orange-01",
+					"slug": "custom-orange-01"
+				},
+				{
+					"color": "#f1ead9",
+					"name": "Orange-02",
+					"slug": "custom-orange-02"
+				},
+				{
+					"color": "#e8dbbb",
+					"name": "Orange-03",
+					"slug": "custom-orange-03"
+				},
+				{
+					"color": "#e2ceb2",
+					"name": "Orange-04",
+					"slug": "custom-orange-04"
+				},
+				{
+					"color": "#b06b38",
+					"name": "Orange-05",
+					"slug": "custom-orange-05"
+				},
+				{
+					"color": "#573115",
+					"name": "Orange-06",
+					"slug": "custom-orange-06"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "1280px",
+			"wideSize": "1920px"
+		},
+		"shadow": {
+			"defaultPresets": false
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Kalam",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/kalam/kalam-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Kalam",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/kalam/kalam-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Kalam",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/kalam/kalam-700-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "Kalam, cursive",
+					"name": "Kalam",
+					"slug": "kalam"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-200-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-900-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-200-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-800-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/mulish/mulish-900-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Mulish, sans-serif",
+					"name": "Mulish",
+					"slug": "mulish"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"color": {
+					"background": "var(--wp--preset--color--custom-orange-05)"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "8px",
+						"left": "18px",
+						"right": "18px",
+						"top": "8px"
+					}
+				},
+				"typography": {
+					"fontSize": "16px"
+				}
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--custom-orange-01)"
+		},
+		"css": ".wp-block-button__link img {\n  vertical-align: middle;\n}",
+		"elements": {
+			"button": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-orange-02)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--mulish)",
+					"fontSize": "30px",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			},
+			"h1": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-orange-06)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--kalam)",
+					"fontSize": "var(--wp--preset--font-size--large)",
+					"fontStyle": "normal",
+					"fontWeight": "700"
+				}
+			},
+			"h2": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-vert-04)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--kalam)",
+					"fontSize": "var(--wp--preset--font-size--medium)"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-vert-04)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--kalam)",
+					"fontStyle": "normal",
+					"fontWeight": "700"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-vert-01)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--mulish)",
+					"fontSize": "18px",
+					"fontStyle": "normal",
+					"fontWeight": "400"
+				}
+			}
+		},
+		"spacing": {
+			"padding": {
+				"bottom": "0px",
+				"left": "2rem",
+				"right": "2rem",
+				"top": "0px"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--mulish)"
+		}
+	}
 }
