@@ -1,0 +1,210 @@
+<?php
+/**
+ * Title: front-page
+ * Slug: /front-page
+ * Inserter: no
+ */
+?>
+<!-- wp:template-part {"slug":"entete"} /-->
+
+<!-- wp:group {"metadata":{"name":"Hero"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"custom-orange-02","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-custom-orange-02-background-color has-background" style="margin-top:0;margin-bottom:0"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|50"}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-06"}}}},"textColor":"custom-orange-06"} -->
+<h1 class="wp-block-heading has-custom-orange-06-color has-text-color has-link-color"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+echo sprintf( esc_html__( '%1$sVotre terrain entretenu comme si c’était le nôtre%2$s', '' ), '<strong>', '</strong>' ); ?></h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e('Tonte, plates-bandes, aménagement, taille de haies et arbustes, déneigement...  ', '');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e('Paysagement Albert entretient les cours et les entrées de Saint-Hyacinthe et des environs depuis 12 ans.', '');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:image {"scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fixedNoShrink","flexSize":"50px"}}} -->
+<figure class="wp-block-image size-full"><img src="http://localhost:10004/wp-content/uploads/2026/10/Group-40-1.png" alt="" style="object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-vert-04"}}},"typography":{"fontSize":"18px"}},"textColor":"custom-vert-04","fontFamily":"kalam"} -->
+<p class="has-custom-vert-04-color has-text-color has-link-color has-kalam-font-family" style="font-size:18px"><?php esc_html_e('Une entreprise familiale', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:image {"scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fixedNoShrink","flexSize":"50px"}}} -->
+<figure class="wp-block-image size-full"><img src="http://localhost:10004/wp-content/uploads/2026/10/Group-39-1-2.png" alt="" style="object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-vert-04"}}},"typography":{"fontSize":"18px","textAlign":"left"}},"textColor":"custom-vert-04","fontFamily":"kalam"} -->
+<p class="has-text-align-left has-custom-vert-04-color has-text-color has-link-color has-kalam-font-family" style="font-size:18px"><?php esc_html_e('Des experts d\'ici', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:cover {"url":"http://localhost:10004/wp-content/uploads/2026/10/hero-photo7-1024x678.png","dimRatio":0,"customOverlayColor":"#5c604b","isUserOverlayColor":false,"minHeight":500,"contentPosition":"bottom center","sizeSlug":"large","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover has-custom-content-position is-position-bottom-center" style="min-height:500px"><img class="wp-block-cover__image-background size-large" alt="" src="http://localhost:10004/wp-content/uploads/2026/10/hero-photo7-1024x678.png" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#5c604b"></span><div class="wp-block-cover__inner-container"><!-- wp:buttons {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"custom-orange-05","className":"is-style-fill","style":{"spacing":{"padding":{"left":"32px","right":"32px","top":"16px","bottom":"16px"}},"typography":{"fontSize":"18px"}}} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-custom-orange-05-background-color has-background has-custom-font-size wp-element-button" style="padding-top:16px;padding-right:32px;padding-bottom:16px;padding-left:32px;font-size:18px"><?php esc_html_e('Demander une soumission', '');?></a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"backgroundColor":"custom-orange-01","textColor":"custom-orange-06","className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-06"}}},"spacing":{"padding":{"left":"32px","right":"32px","top":"16px","bottom":"16px"}},"typography":{"fontSize":"18px"}}} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-custom-orange-06-color has-custom-orange-01-background-color has-text-color has-background has-link-color has-custom-font-size wp-element-button" style="padding-top:16px;padding-right:32px;padding-bottom:16px;padding-left:32px;font-size:18px"><?php esc_html_e('Les conseils d\'Albert', '');?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Services"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"style":{"typography":{"fontSize":"25px"}}} -->
+<h2 class="wp-block-heading" style="font-size:25px"><?php esc_html_e('Nos services', '');?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-06"}}},"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|50"}}},"textColor":"custom-orange-06"} -->
+<p class="has-custom-orange-06-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--50)"><?php esc_html_e('L\'entretien change selon la saison. Voici ce qu\'on offre l\'été et l\'hiver. Nos tarifs débutent à 45$/h. N\'hésitez pas à nous demander une soumission sur mesure pour une offre ajustée à votre projet.', '');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:tabs {"style":{"css":"\u0026 .wp-block-tab-list {\n  width: fit-content;\n  max-width: 100%;\n  margin-inline: auto;\n  background: #526040;\n  border-radius: 999px;\n  padding: 3px;\n}\n\n\u0026 [role=\u0022tab\u0022] {\n  background: transparent;\n  color: #f1ead9;\n  border: 0;\n  border-radius: 999px;\n}\n\n\u0026 .wp-block-tab-list button[aria-selected=\u0022true\u0022]::before {\n  content: none;\n}\n\n\u0026 [role=\u0022tab\u0022][aria-selected=\u0022true\u0022] {\n  background: #f1ead9;\n  color: #526040;\n}\n\n\n\n/* tab */\n\u0026 [role=\u0022tab\u0022]:focus-visible {\n  outline: 2px solid #f1ead9;\n  outline-offset: -5px;\n}"}} -->
+<div class="wp-block-tabs has-custom-css"><!-- wp:tab-list {"style":{"spacing":{"blockGap":"0px"}},"fontSize":"medium","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+<div role="tablist" class="wp-block-tab-list has-medium-font-size"><button type="button" role="tab">ÉTÉ</button><button type="button" role="tab">HIVER</button></div>
+<!-- /wp:tab-list -->
+
+<!-- wp:tab-panels -->
+<div class="wp-block-tab-panels"><!-- wp:tab-panel {"label":"ÉTÉ"} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"border":{"width":"0px","style":"none","radius":{"topLeft":"25px","topRight":"25px","bottomLeft":"25px","bottomRight":"25px"}}},"backgroundColor":"custom-orange-04","fontSize":"medium","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-custom-orange-04-background-color has-background has-medium-font-size" style="border-style:none;border-width:0px;border-top-left-radius:25px;border-top-right-radius:25px;border-bottom-left-radius:25px;border-bottom-right-radius:25px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"full"} -->
+<figure class="wp-block-image alignfull size-full"><img src="http://localhost:10004/wp-content/uploads/2026/10/Rectangle-63.png" alt="" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-vert-04"}}},"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"textColor":"custom-vert-04"} -->
+<p class="has-text-align-center has-custom-vert-04-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><?php esc_html_e('Tonte de pelouse', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"border":{"width":"0px","style":"none","radius":{"topLeft":"25px","topRight":"25px","bottomLeft":"25px","bottomRight":"25px"}}},"backgroundColor":"custom-orange-04","fontSize":"medium","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-custom-orange-04-background-color has-background has-medium-font-size" style="border-style:none;border-width:0px;border-top-left-radius:25px;border-top-right-radius:25px;border-bottom-left-radius:25px;border-bottom-right-radius:25px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"full"} -->
+<figure class="wp-block-image alignfull size-full"><img src="http://localhost:10004/wp-content/uploads/2026/10/Rectangle-92.png" alt="" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-vert-04"}}},"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"textColor":"custom-vert-04"} -->
+<p class="has-text-align-center has-custom-vert-04-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><?php esc_html_e('Taille de haies et arbustes', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"border":{"width":"0px","style":"none","radius":{"topLeft":"25px","topRight":"25px","bottomLeft":"25px","bottomRight":"25px"}}},"backgroundColor":"custom-orange-04","fontSize":"medium","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-custom-orange-04-background-color has-background has-medium-font-size" style="border-style:none;border-width:0px;border-top-left-radius:25px;border-top-right-radius:25px;border-bottom-left-radius:25px;border-bottom-right-radius:25px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"full"} -->
+<figure class="wp-block-image alignfull size-full"><img src="http://localhost:10004/wp-content/uploads/2026/10/Rectangle-94.png" alt="" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-vert-04"}}},"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"textColor":"custom-vert-04"} -->
+<p class="has-text-align-center has-custom-vert-04-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><?php esc_html_e('Aménagement paysager', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></section>
+<!-- /wp:tab-panel -->
+
+<!-- wp:tab-panel {"label":"HIVER"} -->
+<section role="tabpanel" tabindex="0" class="wp-block-tab-panel"><!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"layout":{"type":"constrained","contentSize":"350px"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"border":{"width":"0px","style":"none","radius":{"topLeft":"25px","topRight":"25px","bottomLeft":"25px","bottomRight":"25px"}}},"backgroundColor":"custom-orange-04","fontSize":"medium","layout":{"type":"default"}} -->
+<div class="wp-block-group has-custom-orange-04-background-color has-background has-medium-font-size" style="border-style:none;border-width:0px;border-top-left-radius:25px;border-top-right-radius:25px;border-bottom-left-radius:25px;border-bottom-right-radius:25px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"full"} -->
+<figure class="wp-block-image alignfull size-full"><img src="http://localhost:10004/wp-content/uploads/2026/10/pexels-aj4xo-30731980-1.jpg" alt=""  style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-vert-04"}}},"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"textColor":"custom-vert-04"} -->
+<p class="has-text-align-center has-custom-vert-04-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><?php esc_html_e('Déneigement résidentiel', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:tab-panel --></div>
+<!-- /wp:tab-panels --></div>
+<!-- /wp:tabs -->
+
+<!-- wp:paragraph {"style":{"typography":{"textAlign":"right"},"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-06"}}},"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"0","right":"0"}}},"textColor":"custom-orange-06"} -->
+<p class="has-text-align-right has-custom-orange-06-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--30);margin-right:0;margin-bottom:var(--wp--preset--spacing--30);margin-left:0"><?php esc_html_e('En savoir plus sur nos services', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"ReglesOr"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"style":{"typography":{"fontSize":"25px"}}} -->
+<h2 class="wp-block-heading" style="font-size:25px"><?php esc_html_e('Nos règles d’or', '');?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"border":{"width":"0px","style":"none","radius":{"topLeft":"25px","topRight":"25px","bottomLeft":"25px","bottomRight":"25px"}}},"backgroundColor":"custom-orange-05","fontSize":"medium","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-custom-orange-05-background-color has-background has-medium-font-size" style="border-style:none;border-width:0px;border-top-left-radius:25px;border-top-right-radius:25px;border-bottom-left-radius:25px;border-bottom-right-radius:25px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-04"}}},"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"0","right":"0"}}},"textColor":"custom-orange-04"} -->
+<h2 class="wp-block-heading has-text-align-center has-custom-orange-04-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+echo sprintf( esc_html__( '%1$sUn travail soigné%2$s', '' ), '<strong>', '</strong>' ); ?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-03"}}},"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|20","right":"var:preset|spacing|20"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}},"textColor":"custom-orange-03"} -->
+<p class="has-text-align-center has-custom-orange-03-color has-text-color has-link-color" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is a 'br' HTML element, 2. is a 'br' HTML element */ 
+echo sprintf( esc_html__( 'Chaque taille, coupe et finition est réalisée avec%1$sprécision pour assurer un résultat harmonieux%2$set esthétique.', '' ), '<br>', '<br>' ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"border":{"width":"0px","style":"none","radius":{"topLeft":"25px","topRight":"25px","bottomLeft":"25px","bottomRight":"25px"}}},"backgroundColor":"custom-orange-05","fontSize":"medium","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-custom-orange-05-background-color has-background has-medium-font-size" style="border-style:none;border-width:0px;border-top-left-radius:25px;border-top-right-radius:25px;border-bottom-left-radius:25px;border-bottom-right-radius:25px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-04"}}},"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"0","right":"0"}}},"textColor":"custom-orange-04"} -->
+<h2 class="wp-block-heading has-text-align-center has-custom-orange-04-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+echo sprintf( esc_html__( '%1$s%2$sRespect de votre propriété%3$s%4$s', '' ), '<strong>', '<strong>', '</strong>', '</strong>' ); ?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-03"}}},"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"textColor":"custom-orange-03"} -->
+<p class="has-text-align-center has-custom-orange-03-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--20)"><?php esc_html_e('Nous prenons soin de votre terrain et de vos installations comme s’il s’agissait des nôtres, en laissant les lieux propres après chaque intervention.', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"border":{"width":"0px","style":"none","radius":{"topLeft":"25px","topRight":"25px","bottomLeft":"25px","bottomRight":"25px"}}},"backgroundColor":"custom-orange-05","fontSize":"medium","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-custom-orange-05-background-color has-background has-medium-font-size" style="border-style:none;border-width:0px;border-top-left-radius:25px;border-top-right-radius:25px;border-bottom-left-radius:25px;border-bottom-right-radius:25px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-04"}}},"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"0","right":"0"}}},"textColor":"custom-orange-04","fontSize":"medium"} -->
+<h2 class="wp-block-heading has-text-align-center has-custom-orange-04-color has-text-color has-link-color has-medium-font-size" style="padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+echo sprintf( esc_html__( '%1$s%2$sÀ l’écoute de nos clients%3$s%4$s', '' ), '<strong>', '<strong>', '</strong>', '</strong>' ); ?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-03"}}},"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"textColor":"custom-orange-03"} -->
+<p class="has-text-align-center has-custom-orange-03-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><?php /* Translators: 1. is a 'br' HTML element, 2. is a 'br' HTML element */ 
+echo sprintf( esc_html__( 'Vos besoins et vos attentes sont au cœur de notre%1$stravail. Nous prenons le temps de bien comprendre%2$svotre projet afin de vous offrir un service adapté.', '' ), '<br>', '<br>' ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Réalisations"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"background":{"backgroundImage":{"url":"http://localhost:10004/wp-content/uploads/2026/10/Group-41.png","id":95,"source":"file","title":"Group 41"},"backgroundSize":"cover"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"style":{"typography":{"fontSize":"25px"}}} -->
+<h2 class="wp-block-heading" style="font-size:25px"><?php esc_html_e('Réalisations : Avant / Après', '');?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-06"}}}},"textColor":"custom-orange-06"} -->
+<p class="has-custom-orange-06-color has-text-color has-link-color"><?php esc_html_e('Voyez la différence avec l’équipe d’Albert', '');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"0"},"border":{"width":"11px","radius":{"topLeft":"47px","topRight":"47px","bottomLeft":"47px","bottomRight":"47px"}}},"backgroundColor":"custom-orange-06","borderColor":"custom-orange-06","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group has-border-color has-custom-orange-06-border-color has-custom-orange-06-background-color has-background" style="border-width:11px;border-top-left-radius:47px;border-top-right-radius:47px;border-bottom-left-radius:47px;border-bottom-right-radius:47px;margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","focalPoint":{"x":0.67000000000000004,"y":0.31},"sizeSlug":"full","linkDestination":"none","className":"is-style-default","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
+<figure class="wp-block-image size-full is-style-default"><img src="http://localhost:10004/wp-content/uploads/2026/10/Rectangle-109.png" alt="" style="aspect-ratio:4/3;object-fit:cover;object-position:67% 31%"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
