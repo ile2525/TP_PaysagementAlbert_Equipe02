@@ -269,7 +269,7 @@
 		"color": {
 			"background": "var(--wp--preset--color--custom-orange-01)"
 		},
-		"css": ".wp-block-button__link img {\n  vertical-align: middle;\n}",
+		"css": "/*centre image en ligne du bouton avec son texte*/\n.wp-block-button__link img {\n  vertical-align: middle;\n}\n\n/* arrondir image avant/après*/\n.bafg-twentytwenty-container {\n    border-radius: 15px;\n}",
 		"elements": {
 			"button": {
 				"color": {

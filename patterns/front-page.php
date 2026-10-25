@@ -194,9 +194,17 @@ echo sprintf( esc_html__( 'Vos besoins et vos attentes sont au cœur de notre%1$
 <p class="has-custom-orange-06-color has-text-color has-link-color"><?php esc_html_e('Voyez la différence avec l’équipe d’Albert', '');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"0"},"border":{"width":"11px","radius":{"topLeft":"47px","topRight":"47px","bottomLeft":"47px","bottomRight":"47px"}}},"backgroundColor":"custom-orange-06","borderColor":"custom-orange-06","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-<div class="wp-block-group has-border-color has-custom-orange-06-border-color has-custom-orange-06-background-color has-background" style="border-width:11px;border-top-left-radius:47px;border-top-right-radius:47px;border-bottom-left-radius:47px;border-bottom-right-radius:47px;margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","focalPoint":{"x":0.67000000000000004,"y":0.31},"sizeSlug":"full","linkDestination":"none","className":"is-style-default","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
-<figure class="wp-block-image size-full is-style-default"><img src="http://localhost:10004/wp-content/uploads/2026/10/Rectangle-109.png" alt="" style="aspect-ratio:4/3;object-fit:cover;object-position:67% 31%"/></figure>
-<!-- /wp:image --></div>
+<!-- wp:group {"metadata":{"name":"largeur-slider"},"style":{"spacing":{"blockGap":"0","padding":{"top":"0px","bottom":"0px","left":"0px","right":"0px"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"constrained","contentSize":"900px"}} -->
+<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"metadata":{"name":"bordure"},"className":"slider-realisations","style":{"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"},"width":"9px"},"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0","padding":{"right":"0","left":"0","top":"0","bottom":"0"}},"dimensions":{"minHeight":"0px"},"css":".slider-realisations .bafg-slider-info-wraper {\n    display: none;\n}"},"borderColor":"custom-orange-05","layout":{"type":"constrained"}} -->
+<div class="wp-block-group slider-realisations has-border-color has-custom-orange-05-border-color has-custom-css" style="border-width:9px;border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;min-height:0px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:shortcode {"metadata":{"name":"slider"}} -->
+[bafg id="115"]
+<!-- /wp:shortcode --></div>
 <!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","justifyContent":"right"}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:button {"textColor":"custom-orange-06","className":"is-style-fill","style":{"color":{"background":"#ffffff00"},"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-06"}}},"typography":{"textDecoration":"underline"}}} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-custom-orange-06-color has-text-color has-background has-link-color wp-element-button" style="background-color:#ffffff00;text-decoration:underline"><?php esc_html_e('On évalue vos besoins', '');?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
 <!-- /wp:group -->
