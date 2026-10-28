@@ -194,9 +194,9 @@ echo sprintf( esc_html__( 'Vos besoins et vos attentes sont au cœur de notre%1$
 <p class="has-custom-orange-06-color has-text-color has-link-color"><?php esc_html_e('Voyez la différence avec l’équipe d’Albert', '');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"metadata":{"name":"largeur-slider"},"style":{"spacing":{"blockGap":"0","padding":{"top":"0px","bottom":"0px","left":"0px","right":"0px"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"constrained","contentSize":"900px"}} -->
-<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"metadata":{"name":"bordure"},"className":"slider-realisations","style":{"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"},"width":"9px"},"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0","padding":{"right":"0","left":"0","top":"0","bottom":"0"}},"dimensions":{"minHeight":"0px"},"css":".slider-realisations .bafg-slider-info-wraper {\n    display: none;\n}"},"borderColor":"custom-orange-05","layout":{"type":"constrained"}} -->
-<div class="wp-block-group slider-realisations has-border-color has-custom-orange-05-border-color has-custom-css" style="border-width:9px;border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;min-height:0px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:shortcode {"metadata":{"name":"slider"}} -->
+<!-- wp:group {"metadata":{"name":"largeur-slider"},"style":{"spacing":{"blockGap":"0","padding":{"top":"0px","bottom":"0px","left":"0px","right":"0px"},"margin":{"top":"19px","bottom":"19px"}}},"layout":{"type":"constrained","contentSize":"900px"}} -->
+<div class="wp-block-group" style="margin-top:19px;margin-bottom:19px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"metadata":{"name":"bordure"},"className":"slider-realisations","style":{"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"},"width":"9px"},"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0","padding":{"right":"0","left":"0","top":"0","bottom":"0"}},"dimensions":{"minHeight":"0px"},"css":".slider-realisations .bafg-slider-info-wraper {\n    display: none;\n}"},"borderColor":"custom-orange-05","layout":{"type":"constrained"}} -->
+<div class="wp-block-group slider-realisations has-border-color has-custom-orange-05-border-color has-custom-css" style="border-width:9px;border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;min-height:0px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:shortcode -->
 [bafg id="115"]
 <!-- /wp:shortcode --></div>
 <!-- /wp:group --></div>
@@ -207,4 +207,33 @@ echo sprintf( esc_html__( 'Vos besoins et vos attentes sont au cœur de notre%1$
 <div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-custom-orange-06-color has-text-color has-background has-link-color wp-element-button" style="background-color:#ffffff00;text-decoration:underline"><?php esc_html_e('On évalue vos besoins', '');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Témoignages"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"style":{"typography":{"fontSize":"25px","textAlign":"center"}}} -->
+<h2 class="wp-block-heading has-text-align-center" style="font-size:25px"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+echo sprintf( esc_html__( '%1$sTémoignages de nos clients%2$s', '' ), '<strong>', '</strong>' ); ?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:cb/carousel-v2 {"navigation":false} -->
+<div class="wp-block-cb-carousel-v2 cb-carousel-block" data-cb-slides-per-view="1" data-cb-slides-per-group="1" data-cb-space-between="15" data-cb-speed="300" data-cb-pagination="true" data-cb-breakpoints="{&quot;768&quot;:{&quot;slidesPerView&quot;:3,&quot;slidesPerGroup&quot;:1}}"><div class="swiper"><div class="cb-wrapper swiper-wrapper"><!-- wp:cb/slide-v2 -->
+<div class="wp-block-cb-slide-v2 cb-slide swiper-slide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"right":"24px","left":"24px"}},"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"}}},"backgroundColor":"custom-orange-04","layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group has-custom-orange-04-background-color has-background" style="border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;padding-right:24px;padding-left:24px"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"top":"0","bottom":"0"}}}} -->
+<h3 class="wp-block-heading" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-bottom:0"><?php esc_html_e('Nom', '');?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading"><?php esc_html_e('Ville', '');?></h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e('etoiles', '');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e('text', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:cb/slide-v2 --></div></div><div class="cb-pagination swiper-pagination"></div></div>
+<!-- /wp:cb/carousel-v2 --></div>
 <!-- /wp:group -->
