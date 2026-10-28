@@ -217,8 +217,88 @@ echo sprintf( esc_html__( '%1$sTémoignages de nos clients%2$s', '' ), '<strong>
 
 <!-- wp:cb/carousel-v2 {"navigation":false} -->
 <div class="wp-block-cb-carousel-v2 cb-carousel-block" data-cb-slides-per-view="1" data-cb-slides-per-group="1" data-cb-space-between="15" data-cb-speed="300" data-cb-pagination="true" data-cb-breakpoints="{&quot;768&quot;:{&quot;slidesPerView&quot;:3,&quot;slidesPerGroup&quot;:1}}"><div class="swiper"><div class="cb-wrapper swiper-wrapper"><!-- wp:cb/slide-v2 -->
-<div class="wp-block-cb-slide-v2 cb-slide swiper-slide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"right":"24px","left":"24px"}},"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"}}},"backgroundColor":"custom-orange-04","layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group has-custom-orange-04-background-color has-background" style="border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;padding-right:24px;padding-left:24px"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"top":"0","bottom":"0"}}}} -->
+<div class="wp-block-cb-slide-v2 cb-slide swiper-slide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"right":"24px","left":"24px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"}}},"backgroundColor":"custom-orange-03","layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group has-custom-orange-03-background-color has-background" style="border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:24px;padding-bottom:var(--wp--preset--spacing--40);padding-left:24px"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"top":"0","bottom":"0"}}}} -->
+<h3 class="wp-block-heading" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-bottom:0"><?php esc_html_e('Nom', '');?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading"><?php esc_html_e('Ville', '');?></h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e('etoiles', '');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e('text', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:cb/slide-v2 -->
+
+<!-- wp:cb/slide-v2 -->
+<div class="wp-block-cb-slide-v2 cb-slide swiper-slide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"right":"24px","left":"24px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"}}},"backgroundColor":"custom-orange-03","layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group has-custom-orange-03-background-color has-background" style="border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:24px;padding-bottom:var(--wp--preset--spacing--40);padding-left:24px"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"top":"0","bottom":"0"}}}} -->
+<h3 class="wp-block-heading" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-bottom:0"><?php esc_html_e('Nom', '');?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading"><?php esc_html_e('Ville', '');?></h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e('etoiles', '');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e('text', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:cb/slide-v2 -->
+
+<!-- wp:cb/slide-v2 -->
+<div class="wp-block-cb-slide-v2 cb-slide swiper-slide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"right":"24px","left":"24px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"}}},"backgroundColor":"custom-orange-03","layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group has-custom-orange-03-background-color has-background" style="border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:24px;padding-bottom:var(--wp--preset--spacing--40);padding-left:24px"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"top":"0","bottom":"0"}}}} -->
+<h3 class="wp-block-heading" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-bottom:0"><?php esc_html_e('Nom', '');?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading"><?php esc_html_e('Ville', '');?></h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e('etoiles', '');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e('text', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:cb/slide-v2 -->
+
+<!-- wp:cb/slide-v2 -->
+<div class="wp-block-cb-slide-v2 cb-slide swiper-slide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"right":"24px","left":"24px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"}}},"backgroundColor":"custom-orange-03","layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group has-custom-orange-03-background-color has-background" style="border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:24px;padding-bottom:var(--wp--preset--spacing--40);padding-left:24px"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"top":"0","bottom":"0"}}}} -->
+<h3 class="wp-block-heading" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-bottom:0"><?php esc_html_e('Nom', '');?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading"><?php esc_html_e('Ville', '');?></h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e('etoiles', '');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e('text', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:cb/slide-v2 -->
+
+<!-- wp:cb/slide-v2 -->
+<div class="wp-block-cb-slide-v2 cb-slide swiper-slide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"right":"24px","left":"24px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"}}},"backgroundColor":"custom-orange-03","layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group has-custom-orange-03-background-color has-background" style="border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:24px;padding-bottom:var(--wp--preset--spacing--40);padding-left:24px"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"top":"0","bottom":"0"}}}} -->
 <h3 class="wp-block-heading" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-bottom:0"><?php esc_html_e('Nom', '');?></h3>
 <!-- /wp:heading -->
 
@@ -237,3 +317,5 @@ echo sprintf( esc_html__( '%1$sTémoignages de nos clients%2$s', '' ), '<strong>
 <!-- /wp:cb/slide-v2 --></div></div><div class="cb-pagination swiper-pagination"></div></div>
 <!-- /wp:cb/carousel-v2 --></div>
 <!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"pied-de-page","area":"footer"} /-->
