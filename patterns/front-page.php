@@ -318,4 +318,4 @@ echo sprintf( esc_html__( '%1$sTémoignages de nos clients%2$s', '' ), '<strong>
 <!-- /wp:cb/carousel-v2 --></div>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"pied-de-page","area":"footer"} /-->
+<!-- wp:template-part {"slug":"pied-de-page","area":"uncategorized"} /-->
