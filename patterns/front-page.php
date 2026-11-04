@@ -8,9 +8,10 @@
 <!-- wp:template-part {"slug":"entete"} /-->
 
 <!-- wp:group {"metadata":{"name":"Hero"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"0"}},"backgroundColor":"custom-orange-02","layout":{"type":"default"}} -->
-<div class="wp-block-group has-custom-orange-02-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:cover {"url":"http://localhost:10004/wp-content/uploads/2026/10/hero-photo7-1024x678.png","isUserOverlayColor":true,"minHeight":500,"customGradient":"linear-gradient(117deg,rgb(241,234,217) 0%,rgb(241,234,217) 42%,rgba(255,255,255,0) 69%)","contentPosition":"bottom center","sizeSlug":"large","style":{"dimensions":{"aspectRatio":"auto"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover has-custom-content-position is-position-bottom-center" style="min-height:500px"><img class="wp-block-cover__image-background size-large" alt="" src="http://localhost:10004/wp-content/uploads/2026/10/hero-photo7-1024x678.png" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(117deg,rgb(241,234,217) 0%,rgb(241,234,217) 42%,rgba(255,255,255,0) 69%)"></span><div class="wp-block-cover__inner-container"><!-- wp:columns {"verticalAlignment":"bottom","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|60"}}}} -->
-<div class="wp-block-columns are-vertically-aligned-bottom" style="padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:column {"verticalAlignment":"bottom","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-custom-orange-02-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:cover {"url":"http://localhost:10004/wp-content/uploads/2026/10/hero-photo7-1024x678.png","isUserOverlayColor":true,"minHeight":500,"customGradient":"linear-gradient(117deg,rgb(241,234,217) 0%,rgb(241,234,217) 42%,rgba(255,255,255,0) 69%)","contentPosition":"bottom center","sizeSlug":"large","style":{"dimensions":{"aspectRatio":"auto"},"spacing":{"padding":{"top":"6rem","bottom":"6rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover has-custom-content-position is-position-bottom-center" style="padding-top:6rem;padding-bottom:6rem;min-height:500px"><img class="wp-block-cover__image-background size-large" alt="" src="http://localhost:10004/wp-content/uploads/2026/10/hero-photo7-1024x678.png" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(117deg,rgb(241,234,217) 0%,rgb(241,234,217) 42%,rgba(255,255,255,0) 69%)"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:columns {"verticalAlignment":"bottom","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|60","left":"0"},"margin":{"top":"0","bottom":"0"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-bottom" style="margin-top:0;margin-bottom:0;padding-bottom:var(--wp--preset--spacing--60);padding-left:0"><!-- wp:column {"verticalAlignment":"bottom","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-column is-vertically-aligned-bottom" style="padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-06"}}},"spacing":{"padding":{"right":"0","left":"var:preset|spacing|70","top":"0"}},"typography":{"fontSize":"47px"}},"textColor":"custom-orange-06"} -->
 <h1 class="wp-block-heading has-custom-orange-06-color has-text-color has-link-color" style="padding-top:0;padding-right:0;padding-left:var(--wp--preset--spacing--70);font-size:47px"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
 echo sprintf( esc_html__( '%1$sVotre terrain entretenu comme si c’était le nôtre%2$s', '' ), '<strong>', '</strong>' ); ?></h1>
@@ -49,17 +50,18 @@ echo sprintf( esc_html__( '%1$sVotre terrain entretenu comme si c’était le n�
 
 <!-- wp:column {"verticalAlignment":"bottom","width":"","layout":{"type":"constrained"}} -->
 <div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:buttons {"layout":{"type":"flex","orientation":"vertical","justifyContent":"right"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"custom-orange-05","className":"is-style-fill","style":{"spacing":{"padding":{"left":"32px","right":"32px","top":"16px","bottom":"16px"}},"typography":{"fontSize":"18px"}}} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-custom-orange-05-background-color has-background has-custom-font-size wp-element-button" style="padding-top:16px;padding-right:32px;padding-bottom:16px;padding-left:32px;font-size:18px"><?php esc_html_e('Demander une soumission', '');?></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"custom-orange-05","className":"is-style-fill","style":{"spacing":{"padding":{"left":"32px","right":"32px","top":"16px","bottom":"16px"}},"typography":{"fontSize":"25px"}}} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-custom-orange-05-background-color has-background has-custom-font-size wp-element-button" style="padding-top:16px;padding-right:32px;padding-bottom:16px;padding-left:32px;font-size:25px"><?php esc_html_e('Demander une soumission', '');?></a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"backgroundColor":"custom-orange-01","textColor":"custom-orange-06","className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-06"}}},"spacing":{"padding":{"left":"32px","right":"32px","top":"11px","bottom":"11px"}},"typography":{"fontSize":"17px"}}} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-custom-orange-06-color has-custom-orange-01-background-color has-text-color has-background has-link-color has-custom-font-size wp-element-button" style="padding-top:11px;padding-right:32px;padding-bottom:11px;padding-left:32px;font-size:17px"><?php /* Translators: 1. is the start of a 'img' HTML element */ 
+<!-- wp:button {"backgroundColor":"custom-orange-01","textColor":"custom-orange-06","className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-06"}}},"spacing":{"padding":{"left":"32px","right":"32px","top":"15px","bottom":"15px"}},"typography":{"fontSize":"25px"}},"fontFamily":"kalam"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-custom-orange-06-color has-custom-orange-01-background-color has-text-color has-background has-link-color has-kalam-font-family has-custom-font-size wp-element-button" style="padding-top:15px;padding-right:32px;padding-bottom:15px;padding-left:32px;font-size:25px"><?php /* Translators: 1. is the start of a 'img' HTML element */ 
 echo sprintf( esc_html__( '%1$s Les conseils d\'Albert', '' ), '<img class="wp-image-192" style="width: 36px;" src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/images/Vector.png" alt>' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns --></div></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
 
@@ -92,8 +94,8 @@ echo sprintf( esc_html__( '%1$s Les conseils d\'Albert', '' ), '<img class="wp-i
 <figure class="wp-block-image alignfull size-full has-custom-border"><img src="http://localhost:10004/wp-content/uploads/2026/10/Rectangle-63.png" alt="" style="border-top-left-radius:23px;border-top-right-radius:23px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-vert-04"}}},"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"textColor":"custom-vert-04"} -->
-<p class="has-text-align-center has-custom-vert-04-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><?php esc_html_e('Tonte de pelouse', '');?></p>
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"#24453a"}}},"typography":{"textAlign":"center","fontStyle":"normal","fontWeight":"700"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"color":{"text":"#24453a"}},"fontFamily":"mulish"} -->
+<p class="has-text-align-center has-text-color has-link-color has-mulish-font-family" style="color:#24453a;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:700"><?php esc_html_e('Tonte de pelouse', '');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -104,8 +106,8 @@ echo sprintf( esc_html__( '%1$s Les conseils d\'Albert', '' ), '<img class="wp-i
 <figure class="wp-block-image alignfull size-full has-custom-border"><img src="http://localhost:10004/wp-content/uploads/2026/10/Rectangle-92.png" alt="" style="border-top-left-radius:23px;border-top-right-radius:23px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-vert-04"}}},"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"textColor":"custom-vert-04"} -->
-<p class="has-text-align-center has-custom-vert-04-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><?php esc_html_e('Taille de haies et arbustes', '');?></p>
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"#24453a"}}},"typography":{"textAlign":"center","fontStyle":"normal","fontWeight":"700"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"color":{"text":"#24453a"}},"fontFamily":"mulish"} -->
+<p class="has-text-align-center has-text-color has-link-color has-mulish-font-family" style="color:#24453a;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:700"><?php esc_html_e('Taille de haies et arbustes', '');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -116,8 +118,8 @@ echo sprintf( esc_html__( '%1$s Les conseils d\'Albert', '' ), '<img class="wp-i
 <figure class="wp-block-image alignfull size-full has-custom-border"><img src="http://localhost:10004/wp-content/uploads/2026/10/Rectangle-94.png" alt="" style="border-top-left-radius:23px;border-top-right-radius:23px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-vert-04"}}},"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"textColor":"custom-vert-04"} -->
-<p class="has-text-align-center has-custom-vert-04-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><?php esc_html_e('Aménagement paysager', '');?></p>
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"#24453a"}}},"typography":{"textAlign":"center","fontStyle":"normal","fontWeight":"700"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"color":{"text":"#24453a"}},"fontFamily":"mulish"} -->
+<p class="has-text-align-center has-text-color has-link-color has-mulish-font-family" style="color:#24453a;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:700"><?php esc_html_e('Aménagement paysager', '');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -146,8 +148,8 @@ echo sprintf( esc_html__( '%1$s Les conseils d\'Albert', '' ), '<img class="wp-i
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"ReglesOr"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"style":{"typography":{"fontSize":"47px"}}} -->
-<h2 class="wp-block-heading" style="font-size:47px"><?php esc_html_e('Nos règles d’or', '');?></h2>
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"style":{"typography":{"fontSize":"47px"},"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60);font-size:47px"><?php esc_html_e('Nos règles d’or', '');?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns -->
@@ -180,13 +182,13 @@ echo sprintf( esc_html__( '%1$s%2$sRespect de votre propriété%3$s%4$s', '' ), 
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"border":{"width":"0px","style":"none","radius":{"topLeft":"25px","topRight":"25px","bottomLeft":"25px","bottomRight":"25px"}}},"backgroundColor":"custom-orange-05","fontSize":"medium","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-custom-orange-05-background-color has-background has-medium-font-size" style="border-style:none;border-width:0px;border-top-left-radius:25px;border-top-right-radius:25px;border-bottom-left-radius:25px;border-bottom-right-radius:25px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-04"}}},"typography":{"textAlign":"center","fontSize":"26px"},"spacing":{"padding":{"top":"0.77rem","bottom":"0rem","left":"0","right":"0"}}},"textColor":"custom-orange-04"} -->
-<h2 class="wp-block-heading has-text-align-center has-custom-orange-04-color has-text-color has-link-color" style="padding-top:0.77rem;padding-right:0;padding-bottom:0rem;padding-left:0;font-size:26px"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+<div class="wp-block-group has-custom-orange-05-background-color has-background has-medium-font-size" style="border-style:none;border-width:0px;border-top-left-radius:25px;border-top-right-radius:25px;border-bottom-left-radius:25px;border-bottom-right-radius:25px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-04"}}},"typography":{"textAlign":"center","fontSize":"26px"},"spacing":{"padding":{"top":"0.87rem","bottom":"0rem","left":"0","right":"0"}}},"textColor":"custom-orange-04"} -->
+<h2 class="wp-block-heading has-text-align-center has-custom-orange-04-color has-text-color has-link-color" style="padding-top:0.87rem;padding-right:0;padding-bottom:0rem;padding-left:0;font-size:26px"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
 echo sprintf( esc_html__( '%1$s%2$sÀ l’écoute de nos clients%3$s%4$s', '' ), '<strong>', '<strong>', '</strong>', '</strong>' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-03"}}},"typography":{"textAlign":"center","fontSize":"22px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"textColor":"custom-orange-03"} -->
-<p class="has-text-align-center has-custom-orange-03-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);font-size:22px"><?php /* Translators: 1. is a 'br' HTML element, 2. is a 'br' HTML element */ 
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-03"}}},"typography":{"textAlign":"center","fontSize":"22px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"textColor":"custom-orange-03"} -->
+<p class="has-text-align-center has-custom-orange-03-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40);font-size:22px"><?php /* Translators: 1. is a 'br' HTML element, 2. is a 'br' HTML element */ 
 echo sprintf( esc_html__( 'Vos besoins et vos attentes sont au cœur de notre%1$stravail. Nous prenons le temps de bien comprendre%2$svotre projet afin de vous offrir un service adapté.', '' ), '<br>', '<br>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
@@ -195,12 +197,12 @@ echo sprintf( esc_html__( 'Vos besoins et vos attentes sont au cœur de notre%1$
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Réalisations"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"background":{"backgroundImage":{"url":"http://localhost:10004/wp-content/uploads/2026/10/Group-41.png","id":95,"source":"file","title":"Group 41"},"backgroundSize":"cover"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"style":{"typography":{"fontSize":"47px"}}} -->
-<h2 class="wp-block-heading" style="font-size:47px"><?php esc_html_e('Réalisations : Avant / Après', '');?></h2>
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"style":{"typography":{"fontSize":"47px"},"spacing":{"margin":{"bottom":"2.25rem"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:2.25rem;font-size:47px"><?php esc_html_e('Réalisations : Avant / Après', '');?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-06"}}},"typography":{"fontSize":"23px"}},"textColor":"custom-orange-06"} -->
-<p class="has-custom-orange-06-color has-text-color has-link-color" style="font-size:23px"><?php esc_html_e('Voyez la différence avec l’équipe d’Albert', '');?></p>
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-06"}}},"typography":{"fontSize":"23px"},"spacing":{"padding":{"left":"20rem"}}},"textColor":"custom-orange-06"} -->
+<p class="has-custom-orange-06-color has-text-color has-link-color" style="padding-left:20rem;font-size:23px"><?php esc_html_e('Voyez la différence avec l’équipe d’Albert', '');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"largeur-slider"},"style":{"spacing":{"blockGap":"0","padding":{"top":"0px","bottom":"0px","left":"0px","right":"0px"},"margin":{"top":"19px","bottom":"19px"}}},"layout":{"type":"constrained","contentSize":"900px"}} -->
@@ -212,15 +214,15 @@ echo sprintf( esc_html__( 'Vos besoins et vos attentes sont au cœur de notre%1$
 <!-- /wp:group -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","justifyContent":"right"}} -->
-<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:button {"textColor":"custom-orange-06","className":"is-style-fill","style":{"color":{"background":"#ffffff00"},"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-06"}}},"typography":{"textDecoration":"underline","fontSize":"19px"}}} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-custom-orange-06-color has-text-color has-background has-link-color has-custom-font-size wp-element-button" style="background-color:#ffffff00;font-size:19px;text-decoration:underline"><?php esc_html_e('On évalue vos besoins', '');?></a></div>
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:button {"textColor":"custom-orange-06","className":"is-style-fill","style":{"color":{"background":"#ffffff00"},"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-06"}}},"typography":{"textDecoration":"underline","fontSize":"19px"},"spacing":{"padding":{"left":"10rem","right":"10rem"}}}} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-custom-orange-06-color has-text-color has-background has-link-color has-custom-font-size wp-element-button" style="background-color:#ffffff00;padding-right:10rem;padding-left:10rem;font-size:19px;text-decoration:underline"><?php esc_html_e('On évalue vos besoins', '');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Témoignages"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"style":{"typography":{"fontSize":"25px","textAlign":"center"}}} -->
-<h2 class="wp-block-heading has-text-align-center" style="font-size:25px"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"style":{"typography":{"textAlign":"center","fontSize":"47px"},"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}}} -->
+<h2 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--50);font-size:47px"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
 echo sprintf( esc_html__( '%1$sTémoignages de nos clients%2$s', '' ), '<strong>', '</strong>' ); ?></h2>
 <!-- /wp:heading -->
 

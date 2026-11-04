@@ -18,6 +18,10 @@
 .carte-avis .avis-lire-suite {
     display: block;
     margin-top: 12px;
+    text-align: left;
+    background-color: transparent;
+    color: #573115;
+    border: none;
     text-decoration: underline;
     cursor: pointer;
 }
