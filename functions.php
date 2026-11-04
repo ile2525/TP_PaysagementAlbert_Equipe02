@@ -102,3 +102,5 @@ add_action(
     'wp_enqueue_scripts',
     'avis_cartes'
 );
+
+// Commentaire remise TP2
