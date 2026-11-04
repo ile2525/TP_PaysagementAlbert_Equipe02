@@ -32,7 +32,33 @@ function paysagement_albert_charger_temoignages() {
     );
 }
 
+// Enregistrer les blocs personnalisés du thème.
+function paysagement_albert_enregistrer_blocs() {
+    $dossier = get_theme_file_path(
+        '/blocs-personnalises/build'
+    );
+
+    $manifeste = $dossier . '/blocks-manifest.php';
+
+    if ( ! file_exists( $manifeste ) ) {
+        return;
+    }
+
+    wp_register_block_types_from_metadata_collection(
+        $dossier,
+        $manifeste
+    );
+}
+
+add_action(
+    'init',
+    'paysagement_albert_enregistrer_blocs'
+);
+
+// Ancien script des témoignages mis en pause.
+/*
 add_action(
     'wp_enqueue_scripts',
     'paysagement_albert_charger_temoignages'
 );
+*/
