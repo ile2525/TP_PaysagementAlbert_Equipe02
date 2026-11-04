@@ -13,3 +13,26 @@ function theme_setup() {
     add_theme_support( 'custom-logo' );
 }
 add_action( 'after_setup_theme', 'theme_setup' );
+
+// Charger le comportement des témoignages sur le site public.//
+function paysagement_albert_charger_temoignages() {
+    $fichier = '/assets/js/temoignages.js';
+    $chemin = get_theme_file_path( $fichier );
+
+    if ( ! file_exists( $chemin ) ) {
+        return;
+    }
+
+    wp_enqueue_script(
+        'paysagement-albert-temoignages',
+        get_theme_file_uri( $fichier ),
+        array(),
+        (string) filemtime( $chemin ),
+        true
+    );
+}
+
+add_action(
+    'wp_enqueue_scripts',
+    'paysagement_albert_charger_temoignages'
+);

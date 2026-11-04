@@ -269,7 +269,7 @@
 		"color": {
 			"background": "var(--wp--preset--color--custom-orange-01)"
 		},
-		"css": "/*centre image en ligne du bouton avec son texte*/\n.wp-block-button__link img {\n  vertical-align: middle;\n}\n\n/* arrondir image avant/après*/\n.bafg-twentytwenty-container {\n    border-radius: 15px;\n}",
+		"css": "/*centre image en ligne du bouton avec son texte*/\n.wp-block-button__link img {\n  vertical-align: middle;\n}\n\n/* arrondir image avant/après*/\n.bafg-twentytwenty-container {\n    border-radius: 15px;\n}\n\n/* L'avis reste entièrement lisible si JavaScript ne fonctionne pas. */\n.carte-temoignage .texte-temoignage {\n    line-height: 1.45;\n}\n\n/* Limitation activée uniquement après initialisation du script. */\n.carte-temoignage .texte-temoignage.avis-repliable:not(.avis-ouvert) {\n    max-height: 7.25em; /* 5 lignes × 1.45 */\n    overflow: hidden;\n}\n\n/* Bouton créé automatiquement sous l'avis. */\n.carte-temoignage .bouton-avis {\n    appearance: none;\n    align-self: flex-start;\n    padding: 4px 0;\n    border: 0;\n    background: transparent;\n    color: inherit;\n    font: inherit;\n    font-size: 14px;\n    text-decoration: underline;\n    cursor: pointer;\n}\n\n.carte-temoignage .bouton-avis:focus-visible {\n    outline: 2px solid currentColor;\n    outline-offset: 4px;\n}",
 		"elements": {
 			"button": {
 				"color": {
