@@ -5,3 +5,28 @@
  * Author:      Your Name
  * Author URI:  https://example.com
  */
+
+ /* Limiter le commentaire à quatre lignes lorsqu'il est replié. */
+.carte-avis .avis-commentaire.est-replie {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+/* Bouton permettant de déplier le commentaire. */
+.carte-avis .avis-lire-suite {
+    display: block;
+    margin-top: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.carte-avis .avis-lire-suite:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+}
+
+.carte-avis .wp-block-mfb-meta-field-block .value img {
+    border-radius: 1rem;
+}

@@ -222,118 +222,41 @@ echo sprintf( esc_html__( 'Vos besoins et vos attentes sont au cœur de notre%1$
 echo sprintf( esc_html__( '%1$sTémoignages de nos clients%2$s', '' ), '<strong>', '</strong>' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:cb/carousel-v2 {"navigation":false} -->
-<div class="wp-block-cb-carousel-v2 cb-carousel-block" data-cb-slides-per-view="1" data-cb-slides-per-group="1" data-cb-space-between="15" data-cb-speed="300" data-cb-pagination="true" data-cb-breakpoints="{&quot;768&quot;:{&quot;slidesPerView&quot;:3,&quot;slidesPerGroup&quot;:1}}"><div class="swiper"><div class="cb-wrapper swiper-wrapper"><!-- wp:cb/slide-v2 -->
-<div class="wp-block-cb-slide-v2 cb-slide swiper-slide"><!-- wp:group {"className":"carte-temoignage","style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"right":"24px","left":"24px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"}}},"backgroundColor":"custom-orange-03","layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group carte-temoignage has-custom-orange-03-background-color has-background" style="border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:24px;padding-bottom:var(--wp--preset--spacing--40);padding-left:24px"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"top":"0","bottom":"0"}}}} -->
-<h3 class="wp-block-heading" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-bottom:0"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
-echo sprintf( esc_html__( '%1$sJanette Dumont%2$s', '' ), '<strong>', '</strong>' ); ?></h3>
-<!-- /wp:heading -->
+<!-- wp:group {"className":"carrousel-avis","layout":{"type":"constrained"}} -->
+<div class="wp-block-group carrousel-avis"><!-- wp:query {"queryId":7,"query":{"perPage":3,"pages":0,"offset":0,"postType":"avis-client","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[],"excludeCurrent":null}} -->
+<div class="wp-block-query"><!-- wp:post-template {"className":"carrousel-avis-piste","layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:group {"className":"carte-avis","style":{"css":".carte-avis {\n    border-radius: 36px;\n    background: #e8dbbb;\n    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);\n}","spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group carte-avis has-custom-css" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"className":"avis-rangee","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group avis-rangee"><!-- wp:group {"className":"avis-contenu","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"0"},"border":{"width":"0px","style":"none"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group avis-contenu" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"avis_nom","fieldSettings":{"type":"text","key":"field_6aeabd562c802"},"metadata":{"name":"nom"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"padding":{"right":"var:preset|spacing|60","left":"var:preset|spacing|60","top":"var:preset|spacing|50"}}},"fontSize":"medium"} /-->
 
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading"><?php esc_html_e('St-Hyacinthe', '');?></h4>
-<!-- /wp:heading -->
+<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"avis_ville","fieldSettings":{"type":"text","key":"field_6aeabb2509adb"},"metadata":{"name":"ville"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"padding":{"right":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"fontSize":"small"} /-->
 
-<!-- wp:paragraph -->
-<p><?php esc_html_e('★★★★★', '');?></p>
-<!-- /wp:paragraph -->
+<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"avis_note","fieldSettings":{"type":"number","key":"field_6aeabb4709adc"},"metadata":{"name":"note"},"style":{"typography":{"fontStyle":"normal","fontWeight":"1000"},"spacing":{"padding":{"right":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"textColor":"custom-vert-02","fontSize":"medium"} /-->
 
-<!-- wp:paragraph {"className":"texte-temoignage"} -->
-<p class="texte-temoignage"><?php esc_html_e('Albert et son équipe ont fait un travail formidable dans ma cour cet été. C’est devenu mon endroit préféré de la maison depuis le réaménagement. Je suis trop contente du résultat vraiment.', '');?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:cb/slide-v2 -->
-
-<!-- wp:cb/slide-v2 -->
-<div class="wp-block-cb-slide-v2 cb-slide swiper-slide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"right":"24px","left":"24px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"}}},"backgroundColor":"custom-orange-03","layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group has-custom-orange-03-background-color has-background" style="border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:24px;padding-bottom:var(--wp--preset--spacing--40);padding-left:24px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"top":"0","bottom":"0"}}}} -->
-<h3 class="wp-block-heading" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-bottom:0"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
-echo sprintf( esc_html__( '%1$sSarah M.%2$s', '' ), '<strong>', '</strong>' ); ?></h3>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading"><?php esc_html_e('St-Hyacinthe', '');?></h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p><?php esc_html_e('★★★★★', '');?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><?php esc_html_e('Que dire de plus à part wow, un travail formidable et minutieux, il y en a pas deux comme lui, en plus d’être gentil et d’offrir de bon service.', '');?></p>
-<!-- /wp:paragraph --></div>
+<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"avis_commentaire","fieldSettings":{"type":"textarea","key":"field_6aeabb6b09add"},"metadata":{"name":"temoignage"},"className":"avis-commentaire","style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-vert-04"}}},"spacing":{"padding":{"top":"var:preset|spacing|50"}}},"textColor":"custom-vert-04","fontFamily":"mulish"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:image {"scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
-<figure class="wp-block-image size-full"><img src="http://localhost:10004/wp-content/uploads/2026/10/Rectangle-73-1.png" alt="" style="object-fit:cover"/></figure>
-<!-- /wp:image --></div>
+<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"avis_photo","fieldSettings":{"type":"image","key":"field_6aeabb7209ade"},"className":"avis-visuel","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}},"css":"width: 80%;","border":{"radius":{"topLeft":"5rem","topRight":"5rem","bottomLeft":"5rem","bottomRight":"5rem"}}}} /--></div>
 <!-- /wp:group --></div>
-<!-- /wp:group --></div>
-<!-- /wp:cb/slide-v2 -->
+<!-- /wp:group -->
+<!-- /wp:post-template -->
 
-<!-- wp:cb/slide-v2 -->
-<div class="wp-block-cb-slide-v2 cb-slide swiper-slide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"right":"24px","left":"24px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"}}},"backgroundColor":"custom-orange-03","layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group has-custom-orange-03-background-color has-background" style="border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:24px;padding-bottom:var(--wp--preset--spacing--40);padding-left:24px"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"top":"0","bottom":"0"}}}} -->
-<h3 class="wp-block-heading" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-bottom:0"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
-echo sprintf( esc_html__( '%1$sNathan Delamontagne%2$s', '' ), '<strong>', '</strong>' ); ?></h3>
-<!-- /wp:heading -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:query-pagination {"paginationArrow":"arrow","showLabel":false,"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-vert-03"}}}},"fontSize":"small","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous {"fontSize":"medium"} /-->
 
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading"><?php esc_html_e('Ste-Madeleine', '');?></h4>
-<!-- /wp:heading -->
+<!-- wp:query-pagination-next {"fontSize":"medium"} /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:group -->
 
-<!-- wp:paragraph -->
-<p><?php esc_html_e('★★★★★', '');?></p>
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"placeholder":"Ajouter un texte ou des blocs qui s’afficheront lorsqu’une requête ne renverra aucun résultat."} -->
+<p></p>
 <!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><?php esc_html_e('Le devant de ma maison avait besoin d’un changement pour changer le visage de ma maison et j’ai fait appel au service de paysagement Albert. Je ne suis pas déçu du résultat. J’ai même conseillé des amis de faire appel à ses services et il a fait des merveilles chez eux.', '');?></p>
-<!-- /wp:paragraph --></div>
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query --></div>
 <!-- /wp:group --></div>
-<!-- /wp:cb/slide-v2 -->
-
-<!-- wp:cb/slide-v2 -->
-<div class="wp-block-cb-slide-v2 cb-slide swiper-slide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"right":"24px","left":"24px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"}}},"backgroundColor":"custom-orange-03","layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group has-custom-orange-03-background-color has-background" style="border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:24px;padding-bottom:var(--wp--preset--spacing--40);padding-left:24px"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"top":"0","bottom":"0"}}}} -->
-<h3 class="wp-block-heading" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-bottom:0"><?php esc_html_e('Nom', '');?></h3>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading"><?php esc_html_e('Ville', '');?></h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p><?php esc_html_e('★★★★☆', '');?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><?php esc_html_e('text', '');?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:cb/slide-v2 -->
-
-<!-- wp:cb/slide-v2 -->
-<div class="wp-block-cb-slide-v2 cb-slide swiper-slide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"right":"24px","left":"24px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"24px","topRight":"24px","bottomLeft":"24px","bottomRight":"24px"}}},"backgroundColor":"custom-orange-03","layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group has-custom-orange-03-background-color has-background" style="border-top-left-radius:24px;border-top-right-radius:24px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:24px;padding-bottom:var(--wp--preset--spacing--40);padding-left:24px"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"top":"0","bottom":"0"}}}} -->
-<h3 class="wp-block-heading" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-bottom:0"><?php esc_html_e('Nom', '');?></h3>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading"><?php esc_html_e('Ville', '');?></h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p><?php esc_html_e('★★★★☆', '');?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><?php esc_html_e('text', '');?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:cb/slide-v2 --></div></div><div class="cb-pagination swiper-pagination"></div></div>
-<!-- /wp:cb/carousel-v2 --></div>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"pied-de-page","area":"uncategorized"} /-->
