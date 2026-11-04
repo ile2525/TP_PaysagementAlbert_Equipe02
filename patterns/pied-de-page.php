@@ -5,9 +5,10 @@
  * Inserter: no
  */
 ?>
-<!-- wp:columns {"verticalAlignment":null,"metadata":{"patternName":"/pied-de-page","name":"pied-de-page"},"backgroundColor":"custom-vert-03"} -->
-<div class="wp-block-columns has-custom-vert-03-background-color has-background"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--40);padding-right:0;padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-04"}}}},"textColor":"custom-orange-04"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"right":"5.65rem","left":"5.65rem","top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"custom-vert-03","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-custom-vert-03-background-color has-background" style="padding-top:0;padding-right:5.65rem;padding-bottom:0;padding-left:5.65rem"><!-- wp:columns {"metadata":{"patternName":"/pied-de-page","name":"pied-de-page"},"style":{"spacing":{"padding":{"right":"0.75rem","left":"0.75rem"}}},"backgroundColor":"custom-vert-03"} -->
+<div class="wp-block-columns has-custom-vert-03-background-color has-background" style="padding-right:0.75rem;padding-left:0.75rem"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","right":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--40);padding-right:0;padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-04"}}}},"textColor":"custom-orange-04"} -->
 <h2 class="wp-block-heading has-custom-orange-04-color has-text-color has-link-color"><?php esc_html_e('Paysagement Albert', '');?></h2>
 <!-- /wp:heading -->
 
@@ -38,3 +39,14 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
+
+<!-- wp:group {"backgroundColor":"custom-vert-03","layout":{"type":"default"}} -->
+<div class="wp-block-group has-custom-vert-03-background-color has-background"><!-- wp:separator {"className":"separateur-footer","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"custom-vert-01"} -->
+<hr class="wp-block-separator has-text-color has-custom-vert-01-color has-alpha-channel-opacity has-custom-vert-01-background-color has-background separateur-footer" style="margin-top:0;margin-bottom:0"/>
+<!-- /wp:separator --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"style":{"typography":{"textAlign":"center","fontSize":"13px"},"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-04"}}}},"backgroundColor":"custom-vert-03","textColor":"custom-orange-04"} -->
+<p class="has-text-align-center has-custom-orange-04-color has-custom-vert-03-background-color has-text-color has-background has-link-color" style="font-size:13px"><?php esc_html_e('© 2026 Paysagement Albert', '');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
