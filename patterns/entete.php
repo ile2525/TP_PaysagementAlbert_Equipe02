@@ -6,7 +6,7 @@
  */
 ?>
 <!-- wp:group {"metadata":{"patternName":"/entete","name":"entete"},"style":{"spacing":{"padding":{"top":"16px","bottom":"16px","left":"10rem","right":"10rem"}}},"backgroundColor":"custom-vert-03","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
-<div class="wp-block-group has-custom-vert-03-background-color has-background" style="padding-top:16px;padding-right:10rem;padding-bottom:16px;padding-left:10rem"><!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-01"}}},"typography":{"fontSize":"37px"}},"textColor":"custom-orange-01","fontFamily":"kalam"} /-->
+<div class="wp-block-group has-custom-vert-03-background-color has-background" style="padding-top:16px;padding-right:10rem;padding-bottom:16px;padding-left:10rem"><!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-orange-01"}}},"typography":{"fontSize":"37px"}},"textColor":"custom-orange-01","fontFamily":"tiro-bangla"} /-->
 
 <!-- wp:navigation {"ref":8,"textColor":"custom-vert-01","overlayBackgroundColor":"custom-vert-04","overlayTextColor":"custom-vert-04","style":{"typography":{"fontStyle":"normal","fontWeight":"400","fontSize":"24px"}}} /-->
 

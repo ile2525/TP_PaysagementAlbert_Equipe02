@@ -242,6 +242,21 @@
 					"fontFamily": "Mulish, sans-serif",
 					"name": "Mulish",
 					"slug": "mulish"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Tiro Bangla\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/tiro-bangla/tiro-bangla-400-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Tiro Bangla\", serif",
+					"name": "Tiro Bangla",
+					"slug": "tiro-bangla"
 				}
 			]
 		},
