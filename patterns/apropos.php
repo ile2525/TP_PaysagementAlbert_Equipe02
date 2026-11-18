@@ -14,7 +14,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('c\'est la page à propos ! une autre modification', '');?></p>
+<p><?php esc_html_e('une histoire de famille!', '');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:template-part {"slug":"pied-de-page"} /-->
