@@ -21,4 +21,8 @@
 <!-- /wp:group --></div></div>
 <!-- /wp:cover -->
 
+<!-- wp:paragraph -->
+<p><?php esc_html_e('qqqq', '');?></p>
+<!-- /wp:paragraph -->
+
 <!-- wp:template-part {"slug":"pied-de-page"} /-->
