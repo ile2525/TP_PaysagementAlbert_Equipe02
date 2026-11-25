@@ -103,4 +103,8 @@ add_action(
     'avis_cartes'
 );
 
-// Commentaire remise TP2
+// Charger le style du thème avec un horodatage pour éviter la mise en cache
+add_action('wp_enqueue_scripts', function () {
+  wp_enqueue_style('mon-theme-style', get_stylesheet_uri(), [], filemtime(get_stylesheet_directory() . '/style.css'));
+});
+
